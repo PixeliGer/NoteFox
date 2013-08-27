@@ -1,0 +1,13 @@
+{
+    "name": "NoteFox",
+    "description": "App para simples notas rapidas",
+    "launch_path": "/index.html",
+    "developer": {
+        "name": "iGer"
+        
+            },
+    "icons": {
+        "128": "/images/icon128.png"
+    },
+    "default_locale": "es"
+}

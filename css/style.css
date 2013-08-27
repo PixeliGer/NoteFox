@@ -1,0 +1,97 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background:#FFFFFF;
+}
+
+#container{
+    width:100%;
+    margin:auto;
+    background:#F2F2F2 url("notebook.jpg");
+    background-size:0%;
+    height:100%;
+    margin-top:30px;
+    position:relative;
+}
+
+#heading{
+    text-align:center;
+    padding-top:6px;
+}
+
+#add{
+    display:block;
+    float:right;
+    margin-right:20px;
+    margin-top:5px;
+    text-decoration:none;
+    font-size:22px;
+    font-weight:bold;
+    font-variant:small-caps;
+    color:#000000;
+}
+
+#add img{
+    float:left;
+    padding-right:5px;
+}
+
+#add:hover, #back:hover{
+    color:red;
+}
+
+#editor{
+    display:none;
+    background:none;
+    width:100%;
+    margin-left:0px;
+    height:100%;
+    overflow-y:auto;
+    color:#000000;
+    font-size:18px;
+    outline:none;
+}
+
+#back{
+    display:none;
+    float:right;
+    margin-right:20px;
+    margin-top:5px;
+    text-decoration:none;
+    font-size:22px;
+    font-weight:bold;
+    font-variant:small-caps;
+}
+
+#back img{
+    float:left;
+    padding-right:5px;
+}
+
+#notes ul{
+    margin:0px;
+    padding:0px;
+    margin-left:40px;
+    margin-top:20px;
+}
+
+#notes ul li{
+    list-style-type:none;
+    list-style-image:url("bullet.png") !important;
+    padding-bottom:5px;
+}
+
+#notes ul li a{
+    text-decoration:none;
+    color:#A43C23;
+    font-size:18px;
+    width:auto;
+    font-weight:bold;
+}
+
+#notes ul li img{
+    height:20px;
+    padding-left:40px;
+}
